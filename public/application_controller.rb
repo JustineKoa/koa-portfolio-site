@@ -7,20 +7,20 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
- get '/myworld' do
-    erb :myworld
+  get '/about' do
+    erb :about
   end
 
   get '/accomplishments' do
     erb :accomplishments
   end
-
+  
   get '/projects' do
     erb :projects
-  end
-
+  end 
+  
   get '/contact' do
     erb :contact
-  end
+  end 
 
 end
